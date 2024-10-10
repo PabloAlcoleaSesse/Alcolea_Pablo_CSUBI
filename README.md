@@ -23,16 +23,16 @@ Si sumamos todos los posibles caminos desde cada número, obtenemos el número d
 
 Después de calcular los movimientos posibles con un solo movimiento, pasamos a calcular las posibilidades con dos movimientos. Imaginemos que tenemos un conjunto de posibilidades 𝑀, que representa la posición inicial 𝑛 y el número de movimientos restantes 𝑁. Por ejemplo, las posibilidades desde el 0 con dos movimientos serían:
 
-M(0,2)=M(4,1)+M(6,1)=3 posibilidades+3 posibilidades=6 posibilidades.
+### M(0,2)=M(4,1)+M(6,1)=3 posibilidades+3 posibilidades=6 posibilidades.
 
 El número de caminos desde el 1 con dos movimientos sería:
-M(1,2)=M(6,1)+M(8,1)=3 caminos+2 caminos=5 caminos.
+### M(1,2)=M(6,1)+M(8,1)=3 caminos+2 caminos=5 caminos.
 
 De esta forma, se puede calcular el número de posibilidades con dos movimientos para el resto de los números. Al sumar todos los resultados, obtenemos un total de 46 posibilidades para dos movimientos, lo cual coincide con los datos proporcionados en el enunciado.
 
 Siguiendo el mismo razonamiento, podemos expresar la fórmula que usamos para calcular los caminos posibles de la siguiente manera:
 
-𝑀(𝑢,𝑛)=∑𝑖=0𝑘(1+𝑀(𝑠𝑖𝑔𝑢𝑖𝑒𝑛𝑡𝑒_𝑚𝑜𝑣𝑖𝑚𝑖𝑒𝑛𝑡𝑜[𝑖],𝑛−1))
+### 𝑀(𝑢,𝑛)=∑𝑖=0𝑘(1+𝑀(𝑠𝑖𝑔𝑢𝑖𝑒𝑛𝑡𝑒_𝑚𝑜𝑣𝑖𝑚𝑖𝑒𝑛𝑡𝑜[𝑖],𝑛−1))
 
 
 Con este algoritmo, podemos calcular los resultados de los movimientos dados en la tabla y completar la misma. Por ejemplo:
