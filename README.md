@@ -9,14 +9,23 @@ Según el enunciado del problema, dependiendo de la posición inicial, el caball
 De manera esquemática, esto se puede representar así:
 
 C(0) = (4, 6)
+
 C(1) = (6, 8)
+
 C(2) = (7, 9)
+
 C(3) = (4, 8)
+
 C(4) = (3, 9, 0)
+
 C(5) = (0)
+
 C(6) = (1, 7, 0)
+
 C(7) = (2, 6)
+
 C(8) = (1, 3)
+
 C(9) = (2, 4)
 
 Si sumamos todos los posibles caminos desde cada número, obtenemos el número de movimientos posibles con un único movimiento: 2 + 2 + 2 + 2 + 3 + 0 + 3 + 2 + 2 + 2 = 20, lo cual coincide con la información proporcionada en el enunciado.
