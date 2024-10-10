@@ -1,4 +1,4 @@
-# Como-ser-ub-buen-Ingeniero
+# Como-ser-un-buen-Ingeniero
 ## Link del repositorio
 https://github.com/PabloAlcoleaSesse/Como-ser-ub-buen-Ingeniero-/blob/main/README.md
 
