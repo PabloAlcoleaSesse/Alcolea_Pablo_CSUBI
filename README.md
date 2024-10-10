@@ -32,7 +32,8 @@ De esta forma, se puede calcular el número de posibilidades con dos movimientos
 
 Siguiendo el mismo razonamiento, podemos expresar la fórmula que usamos para calcular los caminos posibles de la siguiente manera:
 
-### 𝑀(𝑢,𝑛)=∑𝑖=0𝑘(1+𝑀(𝑠𝑖𝑔𝑢𝑖𝑒𝑛𝑡𝑒_𝑚𝑜𝑣𝑖𝑚𝑖𝑒𝑛𝑡𝑜[𝑖],𝑛−1))
+### <img width="532" alt="Screenshot 2024-10-10 at 15 36 08" src="https://github.com/user-attachments/assets/b9f2dfb4-d9f0-4b11-a34a-7d3d74b1af83">
+
 
 
 Con este algoritmo, podemos calcular los resultados de los movimientos dados en la tabla y completar la misma. Por ejemplo:
